@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+}
+
+.logo {
+   
+    text-align: center;
+    background-color: rgb(63, 162, 255);
+    height: 100px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    border: 1px solid #3816f8;
+    
+}
+
+/* .logo p{
+    text-align: center;
+
+    
+} */
+
+.menu {
+    flex: 2;
+    text-align: center;
+    background-color: rgb(19, 187, 61);
+    height: 100px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    border: 1px solid #022911;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos del menú horizontalmente */
+    gap: 20px;
+    align-items: center; /* Centra verticalmente los elementos */
+    height: 100%; /* Asegura que el menú ocupe toda la altura del encabezado */
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    transform: translateY(-10px);
+    background-color: brown;
+}
+
+.slider {
+    /* background-color: rgb(153, 219, 29); */
+    background-image: url(img/fondo.jpeg);
+    height: 100px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+}
+
+/* .tabla1 {
+    background-color: rgb(211, 55, 141);
+    height: 320px;
+    align-items: center;
+    color: white;
+} */
+
+.container1 {
+    display: flex;
+}
+
+.table-container {
+    background-color: rgb(17, 252, 17);
+    flex: 2; /* Mayor tamaño para el contenido */
+    margin-right: 20px;
+    border: 1px solid #ddd; /* Opcional: borde para visualizar el contenedor */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+}
+
+.cards-container {
+    text-align: center;
+    background-color: chocolate;
+    flex: 1; /* Menor tamaño para las tarjetas */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaciado entre las tarjetas */
+}
+
+.image {
+    
+    width: 700px;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.card {
+    /* background-color: #f9f9f9;
+    border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+.container2 {
+    display: flex;
+}
+
+.table-container2 {
+    background-color: aqua;
+    flex: 2; /* Mayor tamaño para el contenido */
+    margin-right: 20px;
+    border: 1px solid #ddd; /* Opcional: borde para visualizar el contenedor */
+    padding: 20px; /* Espaciado interno */
+}
+
+.cards-container2 {
+    background-color: blue;
+    flex: 1; /* Menor tamaño para las tarjetas */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaciado entre las tarjetas */
+}
+
+.image2 {
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.card2 {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row; /* Para que las secciones se dispongan en columnas */
+    height: 100px; /* Ocupa toda la altura de la ventana */
+    background-color: rgb(214, 10, 27);
+}
+
+.sectionf {
+    height: 200px;
+    flex: 1; /* Cada sección ocupa una parte igual del contenedor */
+    border: 1px solid #ccc; /* Opcional: borde para visualizar las secciones */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    background-color: #1cfa53; /* Color de fondo opcional */
+}
+
+.sectionf img{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
